@@ -1,7 +1,9 @@
-package dasturlash.uz;
+import controller.ContactController;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        // lesson_11 (packages)
+        ContactController contactController = new ContactController();
+        contactController.start();
     }
 }
